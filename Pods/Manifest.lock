@@ -1,0 +1,20 @@
+PODS:
+  - extobjc (0.0.1)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - extobjc
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - extobjc
+    - Masonry
+
+SPEC CHECKSUMS:
+  extobjc: a55d2f1212ce1cdac4c88bd19594a15c15bab5dc
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 97dedf4506a20c5d80fa1b9031963e6a707cfd7e
+
+COCOAPODS: 1.10.1

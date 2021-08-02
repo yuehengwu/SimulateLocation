@@ -1,0 +1,21 @@
+//
+//  SL_Prefix.pch
+//  SimulateLocation
+//
+//  Created by wyh on 2021/8/2.
+//
+
+#ifndef SL_Prefix_pch
+#define SL_Prefix_pch
+
+/* Color */
+#define TDRGBHex(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define TDRGBHexAlpha(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
+
+#import "UIColor+TDHex.h"
+#import <extobjc/EXTobjc.h>
+#import <Masonry.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SL_Prefix_pch */
